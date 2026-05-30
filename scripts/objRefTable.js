@@ -53,6 +53,7 @@ self.C3_JsPropNameTable = [
 	{garrafaPx: 0},
 	{papelPx: 0},
 	{vidropx: 0},
+	{voltar: 0},
 	{Ponto: 0}
 ];
 
@@ -84,5 +85,6 @@ self.InstanceType = {
 	latinha2Px: class extends self.ISpriteInstance {},
 	garrafaPx: class extends self.ISpriteInstance {},
 	papelPx: class extends self.ISpriteInstance {},
-	vidropx: class extends self.ISpriteInstance {}
+	vidropx: class extends self.ISpriteInstance {},
+	voltar: class extends self.ISpriteInstance {}
 }
